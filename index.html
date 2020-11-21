@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cakeish</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+      <section class="sec">
+        <header>
+          <a href="#"><img src="./images/logo.png" class="logo" alt="logo"></a>
+          <div onclick="menuToggle()" class="togglemenu">
+            <i class="fas fa-bars"></i>
+            <!-- <i class="fas fa-times"></i> -->
+          </div>
+          <ul class="navigation">
+            
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </header>
+        <div class="content">
+          <div class="textbox">
+            <h2>That's what <br> <span>I like</span></h2>
+            <p>
+              What is Lorem Ipsum Lorem Ipsum is simply dummy text 
+              of the printing and typesetting industry Lorem Ipsum has 
+              been the industry's standard dummy text ever since the 1500s 
+              when an unknown printer took a galley of type and scrambled it 
+              to make a type specimen book it has
+            </p>
+            <a href="#">View all Products</a>
+          </div>
+          <div class="imgbox">
+            <img src="./images/pepsi001.png" class='pepsi'>
+          </div>
+        </div>
+        <ul class="thumb">
+          <li><img src="./images/pepsi001.png" onclick="imageslider('./images/pepsi001.png'); changebgcolor('#0062be')"></li>
+          <li><img src="./images/pepsi002.png" onclick="imageslider('./images/pepsi002.png'); changebgcolor('#e60c2c')"></li>
+          <li><img src="./images/pepsi003.png" onclick="imageslider('./images/pepsi003.png'); changebgcolor('#1e1e1e')"></li>
+        </ul>
+        <ul class="sci">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-whatsapp"></i></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></i></a></li>
+        </ul>
+      </section>
+
+      <script src="js.js"></script>
+</body>
+</html>
