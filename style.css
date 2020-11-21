@@ -152,6 +152,10 @@ header ul li a{
   font-size: 3rem;
 }
 
+.togglemenu{
+  display: none;
+}
+
 @media (max-width:991px){
   section{
     padding: 40px;
@@ -249,4 +253,9 @@ header ul li a{
     align-items: center;
   }
 
+}
+@media (max-width:401px){
+  .content .textbox h2 span {
+  font-size: 5rem;
+}
 }
